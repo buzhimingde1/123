@@ -13,11 +13,10 @@
 # 和风天气apikey
 "weather_key": "78e3e77477144248b30a3ccfe54e264b",
 # 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
-"region": "郑州",
-地区：{{region.DATA}} 
-天气：{{weather.DATA}} 
-气温：{{temp.DATA}} 
-风向：{{wind_dir.DATA}} 
+"region": "郑州", 
+{{weather.DATA}} 
+{{temp.DATA}} 
+{{wind_dir.DATA}} 
 # 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
 "birthday1": {"name": "鑫鑫", "birthday": "19997-10-04"},
 # 在一起的日子，格式同上，暂不不支持农历
