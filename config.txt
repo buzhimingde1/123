@@ -7,16 +7,13 @@
 # 模板消息id
 "template_id": "6uauEGkZUdpxDJOs2naCRP3PRf3h9txJLgiSfb7RrVQ",
 # 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
-"user": ["o2O-Z6NgLHuARfVCUzde-Urfdhn4", "o2O-Z6POwBZ7h99fVkRbmitG9tgE"],
+"user": ["o2O-Z6NgLHuARfVCUzde-Urfdhn4", "o2O-Z6POwBZ7h99fVkRbmitG9tgE", "oZs8a68lQuWXZ5ZUJv8QMonXbgXg"],
  
 # 信息配置
 # 和风天气apikey
 "weather_key": "78e3e77477144248b30a3ccfe54e264b",
 # 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
-"region": "郑州", 
-{{weather.DATA}} 
-{{temp.DATA}} 
-{{wind_dir.DATA}} 
+"region": "郑州",  
 # 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
 "birthday1": {"name": "鑫鑫", "birthday": "19997-10-04"},
 # 在一起的日子，格式同上，暂不不支持农历
